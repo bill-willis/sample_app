@@ -5,9 +5,11 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 group :development do
   gem 'rspec-rails', '>= 2.2.1'
+  gem 'annotate-models'
 end
 
 group :test do
   gem 'rspec', '>= 2.2.0'
+  gem 'spork'
   gem 'webrat'
 end
