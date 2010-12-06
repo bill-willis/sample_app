@@ -11,5 +11,6 @@ end
 group :test do
   gem 'rspec', '>= 2.2.0'
   gem 'spork'
+  gem 'factory_girl_rails'
   gem 'webrat'
 end
